@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  background-color: #0c1618;
+  color: #faf4d3;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: #faf4d3;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-color: #0c1618;
+  width: 100vw;
+  height: 5vh;
+}
+.choixBoissons {
+  /* background-color: lavender; */
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 0.2rem solid black; */
+}
+.topMachine {
+  /* background-color: brown; */
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#boissonLigne1 {
+  /* background-color: crimson; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#boissonLigne2 {
+  /* background-color: chartreuse; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.imageBoisson {
+  /* background-color: cornflowerblue; */
+  width: 95%;
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.6rem;
+}
+.nomBoisson {
+  /* background-color: darkgoldenrod; */
+  width: 40%;
+  height: 20%;
+  display: flex;
+  position: absolute;
+  margin: 0.2rem;
+  font-size: large;
+  font-weight: 200;
+}
+img {
+  max-width: auto;
+  max-height: 15rem;
+}
+.selectionBoisson {
+  background-color: #004643;
+  color: #faf4d3;
+  width: 95%;
+  height: 95%;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: relative;
+  margin: 0.2rem;
+  border: 0.2rem solid black;
+}
+.stock {
+  background-color: #0c1618;
+  color: #004643;
+  position: absolute;
+  width: 2rem;
+  height: 1.7rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  /* display: flex;
+  justify-content: right;
+  align-items: end; */
+  font-size: larger;
+  font-weight: bold;
+  border: 0.2rem solid #0c1618;
+  border-radius: 50%;
+  margin-left: 22rem;
+  margin-top: 0.7rem;
+}
+.commandeBoisson {
+  /* display: none; */
+  /* background-color: darkgray; */
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2rem;
+}
+.affichage {
+  background-color: #004643;
+  color: #faf4d3;
+  border: 0.5rem solid #0c1618;
+  width: 90%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnligne {
+  /* background-color: darkorange; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btnligne button {
+  font-size: larger;
+}
+button {
+  background-color: #0c1618;
+  color: #faf4d3;
+  border-radius: 10%;
+  width: 5rem;
+  height: 5rem;
+  margin: 0.2rem;
+}
+.boutonsValidation {
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+}
+.boutonsValidation button {
+  width: 5.5rem;
+  height: 3.5rem;
+  font-size: large;
+}
+.affichageBoisson {
+  background-color: #e9e2bc;
+  width: auto;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,142 @@
+/* ANCHOR Overall & font*/
+@font-face {
+  font-family: open;
+  src: url("/Fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: open;
+}
+/* ANCHOR header */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  /* height: auto; */
+  /* background-color: white; */
+  /* position: fixed; */
+}
+.nav_gauche {
+  width: 70%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.nav_droite {
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:active {
+  color: #eba8b2;
+  font-weight: bold;
+}
+a:hover {
+  color: #ffb6c1;
+}
+header img,
+.reseau img {
+  width: 2rem;
+}
+/* ANCHOR Main */
+.accueil {
+  background-image: url("/Images/BG girly.jpg");
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 80%;
+}
+.text_over_bg {
+  color: #5f5f5f;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+h1 {
+  font-size: 5rem;
+  width: 100vw;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+h2 {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 100%;
+  /* width: 100vw; */
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card_recto {
+  margin: 1rem;
+  border: 0.4rem double #ffb6c1;
+  border-radius: 5rem 1rem;
+  background-color: #f7dbdf;
+  /* position: relative; */
+}
+.card_verso {
+  /* position: absolute; */
+  display: none;
+  border: 0.4rem double #ffb6c1;
+  border-radius: 5rem 1rem;
+  background-color: #f7dbdf;
+  width: 100%;
+  height: 100%;
+}
+.image_forme img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 5rem 1rem;
+  padding: 0.5rem;
+}
+.nom_forme {
+  border-bottom: 0.7px solid #ffb6c1;
+}
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 0rem 0rem 1rem;
+}
+/* ANCHOR Footer */
+footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-top: 0.7px solid #ffb6c1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reseau {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reseau a {
+  padding-left: 1rem;
+}
